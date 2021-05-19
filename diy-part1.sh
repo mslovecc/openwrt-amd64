@@ -15,11 +15,11 @@
 
 # Add a feed source
 # Fetch and list tags
-git fetch --tags
-git tag -l
+# git fetch --tags
+# git tag -l
  
 # Use OpenWrt 19.07.7 release
-git checkout v18.06.8
+# git checkout v18.06.8
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 chmod +x $GITHUB_WORKSPACE/lede/copy-amd64.sh
 $GITHUB_WORKSPACE/lede/copy-amd64.sh
